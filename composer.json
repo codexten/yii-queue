@@ -1,0 +1,22 @@
+{
+  "name": "codexten/yii-queue",
+  "description": "Yii Queue",
+  "require": {
+    "yiisoft/yii2-queue": "~2.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\queue\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "queue": [
+        "config/queue.php"
+      ]
+    }
+  }
+}
